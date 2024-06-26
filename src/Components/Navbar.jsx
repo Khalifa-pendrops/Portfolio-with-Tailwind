@@ -6,12 +6,6 @@ import HamburgerMenu from "./HamburgerMenu";
 
 
 export default function Navbar() {
-//   const [animate, setAnimate] = useState(false);
-// className={animate ? "animated-h1" : ""}
-//   useEffect(() => {
-//     setAnimate(true);
-  //   }, []);
-  
     const [isOpen, setIsOpen] = useState(false);
 
     const handleClick = () => {
