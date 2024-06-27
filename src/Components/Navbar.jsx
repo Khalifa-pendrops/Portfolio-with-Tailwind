@@ -15,17 +15,16 @@ export default function Navbar() {
   return (
     <div>
       <section id="home" className=" ">
-        <nav className="text-white flex justify-between px-[4rem] py-[10px] bg-gray-900">
+        <nav className="text-white flex justify-between px-[2rem] py-[10px] bg-gray-900">
           <a className="name-logo-linked" href="/">
             <h2 className="text-2xl w-10 max-sm:text-2xl max-sm:w-10">
               khali<span className="text-green-700 animate-pulse">Fa</span>.
             </h2>
           </a>
-          <HamburgerMenu />
-          <div className="">
+          <div className=" flex flex-col w-[100%]">
             <div
-              className={`flex flex-col gap-1 hamburger ${
-                isOpen ? "open" : ""
+              className={`flex flex-col-reverse gap-1 transform scale-[-1] hamburger ${
+                isOpen ? "open" : "close"
               }`}
               onClick={handleClick}
             >
@@ -34,8 +33,8 @@ export default function Navbar() {
               <div className="bar max-sm:w-4 max-sm:h-1 bg-white"></div>
             </div>
             {isOpen && (
-              <nav className="menu  ">
-                <ul className=" flex flex-col text-gray-900 bg-white px-10 mt-2 py-2">
+              <nav className="menu flex justify-center items-center  p-2 my-2 ">
+                <ul className=" flex flex-col gap-2 font-bold text-gray-900 bg-white px-10 mt-2 py-2 w-[100%]">
                   <li>
                     <a href="#home">Home</a>
                   </li>
