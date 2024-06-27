@@ -21,7 +21,7 @@ export default function Experince() {
                 alt="whisper app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/whisper"
               >
                 Whisper App
@@ -35,7 +35,7 @@ export default function Experince() {
                 alt="bandage app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/bandage"
               >
                 Bandage App
@@ -49,7 +49,7 @@ export default function Experince() {
                 alt="netflix clone app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/netflix"
               >
                 Netflix Clone App
@@ -66,7 +66,7 @@ export default function Experince() {
                 alt="to-do app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/todo"
               >
                 To-Do App
@@ -81,7 +81,7 @@ export default function Experince() {
                 alt="weather app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/weather"
               >
                 Weather App
@@ -96,7 +96,7 @@ export default function Experince() {
                 alt="notepad app"
               />
               <Link
-                className="linked-apps font-mono text-[12px] text-[coral] font-bold"
+                className="linked-apps  text-[1.4rem] text-[coral] font-bold"
                 to="/notepad"
               >
                 Notepad App

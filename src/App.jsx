@@ -25,8 +25,6 @@ function App() {
 
   return (
     <>
-
-{/* <LandingPage /> */}
       <Navbar />
       <AboutMe />
       <Skills />
