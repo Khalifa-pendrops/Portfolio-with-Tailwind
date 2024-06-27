@@ -15,13 +15,13 @@ export default function Navbar() {
   return (
     <div>
       <section id="home" className=" ">
-        <nav className="text-white flex justify-between px-[2rem] py-[10px] bg-gray-900">
+        <nav className="text-white flex justify-between px-[2rem] py-[10px] bg-gray-900 fixed top-0 left-0 right-0 z-10">
           <a className="name-logo-linked" href="/">
             <h2 className="text-2xl w-10 max-sm:text-2xl max-sm:w-10">
               khali<span className="text-green-700 animate-pulse">Fa</span>.
             </h2>
           </a>
-          <div className=" flex flex-col w-[100%]">
+          <div className=" flex flex-col w-[100%] sm:hidden">
             <div
               className={`flex flex-col-reverse gap-1 transform scale-[-1] hamburger ${
                 isOpen ? "open" : "close"
@@ -55,8 +55,8 @@ export default function Navbar() {
             )}
           </div>
 
-          <div className="max-sm:hidden">
-            <ul className="flex flex-row gap-5 -ml-96">
+          <div className="max-sm:hidden -ml-[106]">
+            <ul className="flex flex-row gap-5">
               <li>
                 <a href="#home">Home</a>
               </li>
