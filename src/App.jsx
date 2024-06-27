@@ -11,13 +11,8 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import LandingPage from './LandingPage'
 import Test from './Components/Test';
+import ErrorPage from './Components/ErrorPage';
 
-// import Whisper from "./Components/Whisper";
-// import Netflix from "./Components/Netflix";
-// import ToDo from "./Components/ToDo";
-// import Bandage from "./Components/Bandage";
-// import Notepad from "./Components/NotePad";
-// import Weather from "./Components/Weather";
 
 
 
@@ -32,6 +27,7 @@ function App() {
       <Contact />
       <Footer />
       {/* <Test /> */}
+      {/* <ErrorPage /> */}
     </>
   );
 }

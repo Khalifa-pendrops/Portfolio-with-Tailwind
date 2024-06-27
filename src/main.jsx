@@ -10,18 +10,18 @@ import ToDo from './Components/ToDo.jsx';
 import Bandage from './Components/Bandage.jsx';
 import NotePad from './Components/NotePad.jsx';
 import Weather from './Components/Weather.jsx';
+import ErrorPage from './Components/ErrorPage.jsx';
 
 
 const router = createBrowserRouter([
-  { path: '/', element: <App /> },
-  // errorElement: <ErrorPage />
-  { path: '/whisper', element: <Whisper /> },
-  { path: '/netflix', element: <Netflix /> },
-  { path: '/todo', element: <ToDo /> },
-  { path: '/bandage', element: <Bandage /> },
-  { path: '/notepad', element: <NotePad /> },
-  {path: '/weather', element: <Weather />}
-])
+  { path: "/", element: <App />, errorElement: <ErrorPage /> },
+  { path: "/whisper", element: <Whisper /> },
+  { path: "/netflix", element: <Netflix /> },
+  { path: "/todo", element: <ToDo /> },
+  { path: "/bandage", element: <Bandage /> },
+  { path: "/notepad", element: <NotePad /> },
+  { path: "/weather", element: <Weather /> },
+]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
