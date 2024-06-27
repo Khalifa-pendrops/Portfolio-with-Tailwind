@@ -78,7 +78,7 @@ export default function Navbar() {
             </a>
           </button>
         </nav>
-        <div className="text-white border bg-[coral] mt-[rem] pt-5 pb-5 text-3xl flex flex-col items-center gap-5 font-bold">
+        <div className="text-white border bg-[coral] mt-[3.2rem] pt-5 pb-5 text-3xl flex flex-col items-center gap-5 font-bold">
           <h5 className="text-base">Hi, I Am</h5>
           <h1 className="animate-pulse text-gray-900 font-extrabold">
             Chikezie Ilodigwe
