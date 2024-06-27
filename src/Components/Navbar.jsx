@@ -42,10 +42,10 @@ export default function Navbar() {
                     <a href="#about">About Me</a>
                   </li>
                   <li>
-                    <a href="#services">Skills</a>
+                    <a href="#skills">Skills</a>
                   </li>
                   <li>
-                    <a href="#contact">Experiences</a>
+                    <a href="#experience">Experiences</a>
                   </li>
                   <li>
                     <a href="#contact">Contact</a>
