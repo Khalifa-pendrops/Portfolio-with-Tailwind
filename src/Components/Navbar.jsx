@@ -52,6 +52,9 @@ export default function Navbar() {
                   <li>
                     <a href="#contact">Contact</a>
                   </li>
+                  <li>
+                    <Link to="/resume"> Resume</Link>
+                  </li>
                 </ul>
               </nav>
             )}
