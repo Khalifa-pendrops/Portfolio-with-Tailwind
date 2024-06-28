@@ -11,6 +11,7 @@ import Bandage from './Components/Bandage.jsx';
 import NotePad from './Components/NotePad.jsx';
 import Weather from './Components/Weather.jsx';
 import ErrorPage from './Components/ErrorPage.jsx';
+import ResumeRedirect from './Components/ResumeRedirect.jsx';
 
 
 const router = createBrowserRouter([
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
   { path: "/bandage", element: <Bandage /> },
   { path: "/notepad", element: <NotePad /> },
   { path: "/weather", element: <Weather /> },
+  { path: "/resume", element: <ResumeRedirect /> },
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

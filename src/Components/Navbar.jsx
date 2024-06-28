@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import HamburgerMenu from "./HamburgerMenu";
+import { Link } from "react-router-dom";
+import ResumeRedirect from "./ResumeRedirect";
 
 
 
@@ -69,13 +71,17 @@ export default function Navbar() {
               <li>
                 <a href="#experience">Experience</a>
               </li>
+              <li>
+                <a href="#contact">Contact Me</a>
+              </li>
             </ul>
           </div>
           <button className="hover:bg-gray-800 hover:text-white border-none bg-red-500 flex flex-row justify-center items-center gap-1 p-1 rounded-md text-white max-sm:hidden">
-            <FontAwesomeIcon className="font-icon" icon={faPhone} />
-            <a className="contact-link-btn" href="#contact">
-              Contact Me
-            </a>
+            {/* <FontAwesomeIcon className="font-icon" icon={faPhone} /> */}
+            <Link to="/resume"> Resume</Link>
+            {/* <a className="font-bold" href="#contact">
+              Resume
+            </a> */}
           </button>
         </nav>
         <div className="text-white border bg-[coral] mt-[3.2rem] pt-5 pb-5 text-3xl flex flex-col items-center gap-5 font-bold">
